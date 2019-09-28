@@ -1,0 +1,13 @@
+Put Device in Learn Mode! Sending SmartConfig Packets now
+Sending SSID                  vtrust-flash
+Sending wifiPassword          flashmeifyoucan
+Sending token                 00000000
+Sending secret                0101
+Traceback (most recent call last):
+  File "./smartconfig/main.py", line 26, in <module>
+    smartconfig( passwd, ssid, region, token, secret )
+  File "/home/pi/tuyabruf/scripts/smartconfig/smartconfig.py", line 46, in smartconfig
+    sock = SmartConfigSocket()
+  File "/home/pi/tuyabruf/scripts/smartconfig/smartconfig.py", line 29, in __init__
+    self._socket.bind((address, 0))
+OSError: [Errno 99] Cannot assign requested address

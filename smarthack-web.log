@@ -1,0 +1,781 @@
+Listening on port 80
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=7&v=3.0&sign=bf827063e2286b84d8b8b80817194cd4
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691466,"e":false}
+[32m[I 190928 19:24:26 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=7&v=3.0&sign=bf827063e2286b84d8b8b80817194cd4 (127.0.0.1) 10.32ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=7&v=3.0&sign=78ed15752775f6384622d0c2063706c9
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691466,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:26 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=7&v=3.0&sign=78ed15752775f6384622d0c2063706c9 (127.0.0.1) 64.71ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=10&v=3.0&sign=24abc161b4b2ad5c79b50fcc06557463
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691469,"e":false}
+[32m[I 190928 19:24:29 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=10&v=3.0&sign=24abc161b4b2ad5c79b50fcc06557463 (127.0.0.1) 6.60ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=11&v=3.0&sign=e5eb219113b8a858e067584a5cd182ef
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691470,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:30 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=11&v=3.0&sign=e5eb219113b8a858e067584a5cd182ef (127.0.0.1) 66.09ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=14&v=3.0&sign=38bb33b839432e6868162d808494114e
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691473,"e":false}
+[32m[I 190928 19:24:33 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=14&v=3.0&sign=38bb33b839432e6868162d808494114e (127.0.0.1) 6.57ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=14&v=3.0&sign=131d8d2d9c04074dbbf01d8855704b67
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691473,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:33 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=14&v=3.0&sign=131d8d2d9c04074dbbf01d8855704b67 (127.0.0.1) 71.84ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=18&v=3.0&sign=4a7791f4ff391d3781d94d4835cdf33c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691477,"e":false}
+[32m[I 190928 19:24:37 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=18&v=3.0&sign=4a7791f4ff391d3781d94d4835cdf33c (127.0.0.1) 6.50ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=18&v=3.0&sign=4a8b50d07883118a47b9c7e049c8d698
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691477,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:37 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=18&v=3.0&sign=4a8b50d07883118a47b9c7e049c8d698 (127.0.0.1) 65.26ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691480"} using protocol 2.2
+b'2.2<\xf8\x12X69148057\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xef\x97\xea1{\xe8f@\xfd\xbe\x02//F\xfa\xa6'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691480"} using protocol 2.2
+b'2.2\xf6\x03\x08\xb069148066\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xef\x97\xea1{\xe8f@\xfd\xbe\x02//F\xfa\xa6'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=21&v=3.0&sign=9cba718d9056da41742746cad5239b14
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691480,"e":false}
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[32m[I 190928 19:24:40 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=21&v=3.0&sign=9cba718d9056da41742746cad5239b14 (127.0.0.1) 4.65ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=22&v=3.0&sign=e090e767c471896d7a026820ac70e156
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691481,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:41 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=22&v=3.0&sign=e090e767c471896d7a026820ac70e156 (127.0.0.1) 60.13ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691484"} using protocol 2.2
+b'2.2\xdf]\xc4\x1e69148422\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6G\x14HjTU\xbagS\x88\xb2ll\xfa+\xac'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=25&v=3.0&sign=6ae142002b4c602b84bab163b657b715
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691484,"e":false}
+[32m[I 190928 19:24:44 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=25&v=3.0&sign=6ae142002b4c602b84bab163b657b715 (127.0.0.1) 4.01ms
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=25&v=3.0&sign=e86f5c84d0539d159d47f55bb1be8ef8
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691484,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:44 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=25&v=3.0&sign=e86f5c84d0539d159d47f55bb1be8ef8 (127.0.0.1) 62.74ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=28&v=3.0&sign=aaddeb4cc400a67ab859b82f5cd7e6cc
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691487,"e":false}
+[32m[I 190928 19:24:47 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=28&v=3.0&sign=aaddeb4cc400a67ab859b82f5cd7e6cc (127.0.0.1) 4.10ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691487"} using protocol 2.2
+b'2.2\xaa\x96\x86\x8d69148789\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xc8\xb7`6\xc9\xb4\x00\xe3\xa8T\xcd\x05L\x9a\x80\xc7'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=29&v=3.0&sign=af44e23032adbd85e693c230cf57781c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691488,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+[32m[I 190928 19:24:48 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=29&v=3.0&sign=af44e23032adbd85e693c230cf57781c (127.0.0.1) 64.35ms
+Trigger upgrade in 10 seconds
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=32&v=3.0&sign=49389c0bc8c73b323332d1aa0117625e
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691491,"e":false}
+[32m[I 190928 19:24:51 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=32&v=3.0&sign=49389c0bc8c73b323332d1aa0117625e (127.0.0.1) 5.80ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691491"} using protocol 2.2
+b'2.2\xa2U/569149150\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xd2\x96\xe0TWc\xbd|\x1d\x8f\xe9\xe67cG_'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=32&v=3.0&sign=74f773e05b5c4f4d45b0a1f7aa3a6243
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691491,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:51 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=32&v=3.0&sign=74f773e05b5c4f4d45b0a1f7aa3a6243 (127.0.0.1) 65.56ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=36&v=3.0&sign=fdd55eb6569b6780413a9e376749806c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691494,"e":false}
+[32m[I 190928 19:24:54 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=36&v=3.0&sign=fdd55eb6569b6780413a9e376749806c (127.0.0.1) 4.24ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691495"} using protocol 2.2
+b'2.2\xcdy\xb2\xc669149512\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xfc$\xf1)\xeb\xc6\xa1\xd38\x16\xd1@\xffF\x96\xe6'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=36&v=3.0&sign=883623aed674edc216fa3c07d1bb7a52
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691495,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+[32m[I 190928 19:24:55 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=36&v=3.0&sign=883623aed674edc216fa3c07d1bb7a52 (127.0.0.1) 59.58ms
+Trigger upgrade in 10 seconds
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=39&v=3.0&sign=52430fed5a97db4e78bd713b76285e8c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691498,"e":false}
+[32m[I 190928 19:24:58 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=39&v=3.0&sign=52430fed5a97db4e78bd713b76285e8c (127.0.0.1) 4.27ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691498"} using protocol 2.2
+b'2.2\x9d\xb1B\x1669149876\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\x01\xa5,S4<\x1c\xba\x94\x18\xe7V\xb0\xa902'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=39&v=3.0&sign=4848839cac534959324c39cb402b6539
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691498,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:24:58 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=39&v=3.0&sign=4848839cac534959324c39cb402b6539 (127.0.0.1) 61.09ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=43&v=3.0&sign=ba098fe06f4e9b30268d55fe3c070ce4
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691502,"e":false}
+[32m[I 190928 19:25:02 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=43&v=3.0&sign=ba098fe06f4e9b30268d55fe3c070ce4 (127.0.0.1) 4.43ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691502"} using protocol 2.2
+b'2.2\x8d\xd7[\xa869150223\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xe0Y\x97d\x8e/\x98\xf9\x1c\xb6-X7\xd5\x82\xbd'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=43&v=3.0&sign=c8c103f923e2ba659e559ff971d20859
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691502,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:02 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=43&v=3.0&sign=c8c103f923e2ba659e559ff971d20859 (127.0.0.1) 64.14ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=46&v=3.0&sign=b8aea4da5080c5f0f6174b1df806c04e
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691505,"e":false}
+[32m[I 190928 19:25:05 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=46&v=3.0&sign=b8aea4da5080c5f0f6174b1df806c04e (127.0.0.1) 4.68ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691505"} using protocol 2.2
+b'2.2<\x1fqm69150579\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6)\xbb-\x1f\xe2\x1bK\x87-(x&KU\x18\xca'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=47&v=3.0&sign=9f5e694b2bd9817c3be1eb2530797b4c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691506,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:06 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=47&v=3.0&sign=9f5e694b2bd9817c3be1eb2530797b4c (127.0.0.1) 72.88ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=50&v=3.0&sign=7eaa3be4e33b4b0a3784a29b8bb7f65f
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691509,"e":false}
+[32m[I 190928 19:25:09 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=50&v=3.0&sign=7eaa3be4e33b4b0a3784a29b8bb7f65f (127.0.0.1) 4.33ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691509"} using protocol 2.2
+b'2.2\xc3]\x15\xdf69150945\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\x81r`~\xd7\x07\xd6>\xd4L\xfb\xc1\x9d\xcf\xf8\xa9'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=50&v=3.0&sign=55eb10b76b35dc023073fcea3645c0f8
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691509,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:09 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=50&v=3.0&sign=55eb10b76b35dc023073fcea3645c0f8 (127.0.0.1) 66.62ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=53&v=3.0&sign=caf3cc59da3ae5379909bb2202b20ebc
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691512,"e":false}
+[32m[I 190928 19:25:12 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=53&v=3.0&sign=caf3cc59da3ae5379909bb2202b20ebc (127.0.0.1) 4.58ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691512"} using protocol 2.2
+b"2.2\x89\xee}[69151298\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xdf\x9d\x82j(\x04\xf4\xef\x8cvv@'\x9d2\xe2"
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=54&v=3.0&sign=31e2f6c303aa78423be2d0b75e99ac78
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691513,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:13 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=54&v=3.0&sign=31e2f6c303aa78423be2d0b75e99ac78 (127.0.0.1) 87.47ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=57&v=3.0&sign=fc82f47d6955010bb3453ceda10e6946
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691516,"e":false}
+[32m[I 190928 19:25:16 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=57&v=3.0&sign=fc82f47d6955010bb3453ceda10e6946 (127.0.0.1) 5.14ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691516"} using protocol 2.2
+b'2.2\x1eI\xef\xc969151656\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xab.O[\xe3\xc9!\xefa\xce\xefd\xcb\x88J@'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=57&v=3.0&sign=96dd331e1c5f6e36526dda2f588f0e01
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691516,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:16 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=57&v=3.0&sign=96dd331e1c5f6e36526dda2f588f0e01 (127.0.0.1) 58.75ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691520"} using protocol 2.2
+b'2.2!/\x8b 69152013\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6zP\xc1\x1f\x9c\t\xba\x0f\x9b\xe2\xca;"\x01\xbdM'
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=61&v=3.0&sign=5377830e8745ce70adf62d9ce3cc0b67
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691520,"e":false}
+[32m[I 190928 19:25:20 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=61&v=3.0&sign=5377830e8745ce70adf62d9ce3cc0b67 (127.0.0.1) 4.97ms
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=61&v=3.0&sign=60ff31a0df04572be7f3f640c4da3b2c
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691520,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:20 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=61&v=3.0&sign=60ff31a0df04572be7f3f640c4da3b2c (127.0.0.1) 59.57ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=64&v=3.0&sign=e7bf550f033fcd9e5bdaa37a36660864
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691523,"e":false}
+[32m[I 190928 19:25:23 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=64&v=3.0&sign=e7bf550f033fcd9e5bdaa37a36660864 (127.0.0.1) 4.83ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691523"} using protocol 2.2
+b'2.2\xc3\xbe1\x9769152375\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6mB\xf6\xddo\xb1\r\xe0\xab\x12\x08\xb0WN\xe7\x11'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=65&v=3.0&sign=c4184cee4f6ccf02953827e0d4b33699
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691524,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:24 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=65&v=3.0&sign=c4184cee4f6ccf02953827e0d4b33699 (127.0.0.1) 56.55ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=68&v=3.0&sign=53bb2e753dda6677032091a3d5644887
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691527,"e":false}
+[32m[I 190928 19:25:27 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=68&v=3.0&sign=53bb2e753dda6677032091a3d5644887 (127.0.0.1) 4.76ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691527"} using protocol 2.2
+b'2.2\xcf\xd2\xf9\x8469152737\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6w\xb1\x11\xf6t\xfc\xeb\x15\x95\x0fd}\r}\\\x9a'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=68&v=3.0&sign=df4bc7c940947c0d33aca10267d294a8
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691527,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+[32m[I 190928 19:25:27 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=68&v=3.0&sign=df4bc7c940947c0d33aca10267d294a8 (127.0.0.1) 62.16ms
+Trigger upgrade in 10 seconds
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=71&v=3.0&sign=281bbe28655eb756f558aeac2e092d6d
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691530,"e":false}
+[32m[I 190928 19:25:30 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=71&v=3.0&sign=281bbe28655eb756f558aeac2e092d6d (127.0.0.1) 4.97ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691530"} using protocol 2.2
+b'2.23\xea:B69153092\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xf3"P\xb15\xac\x0c5\x92\x89\n\xeb\xc1\x93\xe4\xaf'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=72&v=3.0&sign=c1ff0e3012104782ad7081fa324a6b94
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691531,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:31 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=72&v=3.0&sign=c1ff0e3012104782ad7081fa324a6b94 (127.0.0.1) 59.38ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=75&v=3.0&sign=8ff31ddc2a0ad8a3a3bc62871d4f6605
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Host: a3.tuyaus.com
+
+Answer s.gw.token.get
+reply {"result":{"stdTimeZone":"-05:00","gwMqttUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","gwApiUrl":"http://10.42.42.1/gw.json","aispeech":"10.42.42.1","dstIntervals":[],"mediaMqttsUrl":"10.42.42.1","httpsPSKUrl":"https://10.42.42.1/gw.json","mqttsUrl":"10.42.42.1","timeZone":"-05:00","mqttRanges":"","mediaMqttUrl":"10.42.42.1"},"success":true,"t":1569691534,"e":false}
+[32m[I 190928 19:25:34 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"broadcast"}}&t=75&v=3.0&sign=8ff31ddc2a0ad8a3a3bc62871d4f6605 (127.0.0.1) 5.31ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691534"} using protocol 2.2
+b'2.2\xa9\xae\x19\xe269153451\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xe6r\x9eKd.A\x95\x04\xe0-%d\xd5Ha'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=75&v=3.0&sign=b3e9002263982fd0bfe7e8a661ced870
+Connection: keep-alive
+User-Agent: ESP8266SDK
+Content-Length: 485
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: 10.42.42.1
+
+payload 867603B43C4BF259D994A6DE13E94686C6EE4150B210EA474713BB25B81B8CCFBDA9F8C08F37BF8CCD0E19B07A27088525211FA1EF0A186C2DEF17571BF54BFE9D865B903F70DCE3C5339B335623E71AEAC6D0E7BC36B631D23191E99690501794107CA85730BCD725E8E209CCDC6E8C00D528A733D57814E2A907D974BEB908CEDF003C038FBAB37414E15FB6BB342596996B896643B864448F54072EFD8B5C55EE6D31982060A74AAB3706D6C95E404EF9B7BDAA4869EECA2846FF022F5981423265D1F9A8AACE0B4AF2A9704FAE9432D4D144E393F29E42376776445E4D35372B7FD936981944C5419A7345B77673
+Answer s.gw.dev.pk.active
+reply {"result":{"localKey":"0000000000000000","uid":"00000000000000000000","devEtag":"0000000000","schema":"[{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}},{\"mode\":\"rw\",\"id\":1,\"type\":\"obj\",\"property\":{\"type\":\"bool\"}}]","secKey":"0000000000000000","schemaId":"0000000000"},"success":true,"t":1569691534,"e":false}
+TRIGGER UPGRADE IN 10 SECONDS
+Trigger upgrade in 10 seconds
+[32m[I 190928 19:25:34 web:2246][m 200 POST /gw.json?a=s.gw.dev.fk.active&et=1&gwId=4757703784f3ebf4f205&other={"token":"00000000"}&t=75&v=3.0&sign=b3e9002263982fd0bfe7e8a661ced870 (127.0.0.1) 62.43ms
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691538"} using protocol 2.2
+b'2.2\xa9\t\x1aI69153807\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xcf\xed\xfb.zT\xe5-Y\xba\nM\xbf\x19\xf2\xb0'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691541"} using protocol 2.2
+b'2.2"\x15\xefh69154162\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc63W#\xa39\xad\x87/\xf9\xe7\xb0\xbc\xa3C\x95\xbd'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+encoding {"data":{"gwId":"4757703784f3ebf4f205"},"protocol":15,"s":"1523715","t":"1569691545"} using protocol 2.2
+b'2.2_$$u69154519\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\xbd=\xbbY\x18HJ#\x1f\xc5\x91Z\xc3\xd9U\xfd\xa1}\xbf\x0e_MQ\xde\xb1%\xd1`\\1Rr\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5ELJ\x05\xe6\xc0,cK\x1f\xa3\x1aKd~\x8a\xe3\xc6\xbfM\xf7\xd8\xf3iO\xa9\xcf\xc5\xd6m\x8bu\xef\x80'
+Traceback (most recent call last):
+  File "mq_pub_15.py", line 119, in <module>
+    sys.exit(main())
+  File "mq_pub_15.py", line 114, in main
+    client.connect(broker)
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 839, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.5/dist-packages/paho/mqtt/client.py", line 962, in reconnect
+    sock = socket.create_connection((self._host, self._port), source_address=(self._bind_address, 0))
+  File "/usr/lib/python3.5/socket.py", line 712, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 703, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused

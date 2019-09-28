@@ -1,0 +1,332 @@
+Checking for network interface wlan0... Found.
+Attempting to stop wpa_supplicant
+Backing up NetworkManager.conf...
+Restarting NetworkManager...
+Writing hostapd config file...
+Configuring AP interface...
+Applying iptables rules...
+Starting DNSMASQ server...
+
+dnsmasq: failed to bind DHCP server socket: Address already in use
+Starting AP on wlan0...
+Configuration file: hostapd.conf
+wlan0: Could not connect to kernel driver
+Using interface wlan0 with hwaddr 66:3a:32:56:7d:a1 and ssid "vtrust-flash"
+random: Only 15/20 bytes of strong random data available from /dev/random
+random: Not enough entropy pool available for secure operations
+WPA: Not enough entropy in random pool for secure operations - update keys later when the first station connects
+wlan0: interface state UNINITIALIZED->ENABLED
+wlan0: AP-ENABLED 
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 3D1694DB5AABBE16
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 73E2E81BDD326454
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 64:89:f1:bd:82:e7 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 64:89:f1:bd:82:e7
+wlan0: STA 64:89:f1:bd:82:e7 RADIUS: starting accounting session 2AB9588FF65561DC
+wlan0: STA 64:89:f1:bd:82:e7 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 9E66B6DFFFDD79EE
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 64:89:f1:bd:82:e7 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 64:89:f1:bd:82:e7
+wlan0: STA 64:89:f1:bd:82:e7 IEEE 802.11: disassociated
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 00:1f:1f:12:0a:46
+wlan0: STA 00:1f:1f:12:0a:46 RADIUS: starting accounting session F07D3D46692F42F8
+wlan0: STA 00:1f:1f:12:0a:46 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 31743E32CEAF3667
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session C05350DB5BD183EF
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 5CDB32ED67D76D83
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-CONNECTED 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 RADIUS: starting accounting session 52CD7F344A92427F
+wlan0: STA 84:f3:eb:f4:f2:05 WPA: pairwise key handshake completed (RSN)
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: AP-STA-DISCONNECTED 84:f3:eb:f4:f2:05
+wlan0: AP-STA-DISCONNECTED 00:1f:1f:12:0a:46
+wlan0: INTERFACE-DISABLED 
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 00:00:00:00:00:00 IEEE 802.11: disassociated
+wlan0: INTERFACE-ENABLED 
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 00:1f:1f:12:0a:46
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 00:1f:1f:12:0a:46
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 00:1f:1f:12:0a:46
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 00:1f:1f:12:0a:46
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: STA 00:1f:1f:12:0a:46 IEEE 802.11: disassociated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: disassociated
+wlan0: STA 84:f3:eb:f4:f2:05 IEEE 802.11: associated
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05
+wlan0: AP-STA-POSSIBLE-PSK-MISMATCH 84:f3:eb:f4:f2:05

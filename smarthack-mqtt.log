@@ -1,0 +1,4 @@
+1569691427: mosquitto version 1.4.10 (build date Wed, 13 Feb 2019 00:45:38 +0000) starting
+1569691427: Using default config.
+1569691427: Opening ipv4 listen socket on port 1883.
+1569691427: Error: Address already in use
